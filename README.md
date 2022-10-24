@@ -1,1 +1,1 @@
-# This Clone was builr=t with React and Tailwind CSS
+# This Clone was built with React and Tailwind CSS
