@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Jost:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+*{
+  font-family: 'Jost', sans-serif;
+  transition: 0.2s;
+}
+#bar{
+  box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%)
+}
+h3{
+  font-weight: 500;
+  color: #222222;
+}
+/* p{
+  color: #717171;
+} */
+#hover-class:hover{
+  color: black;
+  transition: .05s;
+  border-bottom: 3px solid black;
+}
+.active{
+  color: black;
+  cursor: pointer;
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 3px solid black;
+}
+.dot{
+  box-shadow: 0 0 0 1.5px #FFFFFF;
+}
+.add-shadow{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
